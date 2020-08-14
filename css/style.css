@@ -245,6 +245,10 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 32px; }
 
+  .text-danger{
+    color: crimson;
+  }
+
 .clear {
   clear: both; }
 
@@ -253,14 +257,15 @@ body {
   line-height: 1.8;
   color: #222;
   font-weight: 400;
-  background: #282828;
+  background: #ffffff !important;
   padding: 90px 0; }
 
 .container {
   width: 1400px;
   position: relative;
   margin: 0 auto;
-  background: #fff; }
+  background: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .signup-img, .signup-form {
   width: 50%; }
@@ -424,8 +429,8 @@ select {
   cursor: pointer; }
 
 #reset {
-  background: #f8f8f8;
-  color: #999;
+  background: #0f55b5;
+  color: #fff;
   margin-right: 8px; }
   #reset:hover {
     background: #326ac4;
